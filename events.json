@@ -1,4 +1,7 @@
 {
+  "2025-09-20": [
+    { "start": 6, "duration": 4, "title": "maths" }
+  ],
   "2025-09-21": [
     { "start": 8, "duration": 2, "title": "Team Meeting" },
     { "start": 12, "duration": 1, "title": "Lunch Break" }
