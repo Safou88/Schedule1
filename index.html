@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weekly Schedule</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>weekly stream schedule</h1>
+
+  <div class="controls">
+    <button onclick="prevWeek()">⬅️ Previous Week</button>
+    <span id="week-label"></span>
+    <button onclick="nextWeek()">Next Week ➡️</button>
+  </div>
+
+  <p id="timezone-info" style="text-align:center; font-size: 0.9em; color: gray;"></p>
+
+  <div id="table-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
